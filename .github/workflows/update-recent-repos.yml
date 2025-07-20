@@ -101,7 +101,7 @@ jobs:
           pattern = r"(<!--START_SECTION:recent_repos-->)(.*?)(<!--END_SECTION:recent_repos-->)"
           new_content, n = re.subn(
               pattern,
-              r"\\1\n" + new_block + r"\n\\3",
+              r"\1\n" + new_block + r"\n\3",
               content,
               flags=re.DOTALL,
           )
