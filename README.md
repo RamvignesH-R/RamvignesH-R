@@ -25,7 +25,16 @@
 ### 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-*Fetching latest repositories...*
+<div align="center">
+  <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
+  <a href="https://github.com/RamvignesH-R/Employee_Prediction_models_AICTE" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Employee_Prediction_models_AICTE&theme=dracula&hide_border=false" alt="Employee_Prediction_models_AICTE repo card" /></a>
+  <a href="https://github.com/RamvignesH-R/Summar_Analytics_IITG" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Summar_Analytics_IITG&theme=dracula&hide_border=false" alt="Summar_Analytics_IITG repo card" /></a>
+</div>
+
+<p align="center">
+  <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
+  <sub>• <b>Employee_Prediction_models_AICTE</b>: No description.</sub><br>
+  <sub>• <b>Summar_Analytics_IITG</b>: No description.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
 
