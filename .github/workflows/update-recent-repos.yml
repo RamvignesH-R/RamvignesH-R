@@ -1,0 +1,132 @@
+name: Update Recent Repos in Profile README
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # Every 12 hours (UTC)
+  workflow_dispatch:        # Allow manual run
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-recent-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update recent repos section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          MAX_REPOS: "3"
+          EXCLUDE_FORKS: "true"
+          EXCLUDE_ARCHIVED: "true"
+        run: |
+          python <<'EOF'
+          import os, re, requests, sys
+
+          token = os.getenv("GITHUB_TOKEN")
+          user = os.getenv("GITHUB_USER")
+          max_repos = int(os.getenv("MAX_REPOS", "3"))
+          exclude_forks = os.getenv("EXCLUDE_FORKS", "true").lower() == "true"
+          exclude_archived = os.getenv("EXCLUDE_ARCHIVED", "true").lower() == "true"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {token}",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          # Get up to 100 repos sorted by last update (server sorts by updated desc)
+          url = f"https://api.github.com/users/{user}/repos?per_page=100&sort=updated"
+          resp = requests.get(url, headers=headers, timeout=30)
+          if resp.status_code != 200:
+              print("Failed to fetch repos:", resp.status_code, resp.text)
+              sys.exit(1)
+          repos = resp.json()
+
+          # Filter
+          filtered = []
+          for r in repos:
+              if exclude_forks and r.get("fork"):
+                  continue
+              if exclude_archived and r.get("archived"):
+                  continue
+              filtered.append(r)
+
+          # Sort by pushed_at (most recent work)
+          filtered.sort(key=lambda r: r.get("pushed_at") or r.get("updated_at") or "", reverse=True)
+          top = filtered[:max_repos]
+
+          # Build HTML cards + blurbs
+          cards = []
+          blurbs = []
+          for r in top:
+              name = r["name"]
+              desc = (r.get("description") or "No description.").strip()
+              cards.append(
+                  f'  <a href="https://github.com/{user}/{name}" target="_blank">'
+                  f'<img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=dracula&hide_border=false" alt="{name} repo card" /></a>'
+              )
+              blurbs.append(f'  <sub>• <b>{name}</b>: {desc}</sub><br>')
+
+          if not cards:
+              new_block = "*No recent public repo activity.*"
+          else:
+              new_block = (
+                  '<div align="center">\n' + "\n".join(cards) + '\n</div>\n\n'
+                  '<p align="center">\n' + "\n".join(blurbs) + '</p>'
+              )
+
+          # Read README.md
+          readme_path = "README.md"
+          try:
+              with open(readme_path, "r", encoding="utf-8") as f:
+                  content = f.read()
+          except FileNotFoundError:
+              print("README.md not found at repo root.")
+              sys.exit(1)
+
+          pattern = r"(<!--START_SECTION:recent_repos-->)(.*?)(<!--END_SECTION:recent_repos-->)"
+          new_content, n = re.subn(
+              pattern,
+              r"\\1\n" + new_block + r"\n\\3",
+              content,
+              flags=re.DOTALL,
+          )
+
+          if n == 0:
+              print("Markers not found. Did you paste the START/END_SECTION comments?")
+              sys.exit(1)
+
+          if new_content == content:
+              print("No change to README; skipping commit.")
+              sys.exit(0)
+
+          with open(readme_path, "w", encoding="utf-8") as f:
+              f.write(new_content)
+
+          print("README updated with recent repos.")
+          EOF
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update recent repos section [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
