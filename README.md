@@ -22,6 +22,11 @@
 
 ###
 
+### 🔭 Recently Working Repositories
+
+<!--START_SECTION:recent_repos-->
+*Fetching latest repositories...*
+<!--END_SECTION:recent_repos-->
 
 
 ###
