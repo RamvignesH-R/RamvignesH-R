@@ -26,15 +26,15 @@
 
 <!--START_SECTION:recent_repos-->
 <div align="center">
+  <a href="https://github.com/RamvignesH-R/Stenography_Implementation" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Stenography_Implementation&theme=dracula&hide_border=false" alt="Stenography_Implementation repo card" /></a>
   <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
   <a href="https://github.com/RamvignesH-R/Customer_Churn_Prediction" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Customer_Churn_Prediction&theme=dracula&hide_border=false" alt="Customer_Churn_Prediction repo card" /></a>
-  <a href="https://github.com/RamvignesH-R/Implementation_VAE_Using_Pytorch" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Implementation_VAE_Using_Pytorch&theme=dracula&hide_border=false" alt="Implementation_VAE_Using_Pytorch repo card" /></a>
 </div>
 
 <p align="center">
+  <sub>• <b>Stenography_Implementation</b>: No description.</sub><br>
   <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
-  <sub>• <b>Customer_Churn_Prediction</b>: No description.</sub><br>
-  <sub>• <b>Implementation_VAE_Using_Pytorch</b>: No description.</sub><br></p>
+  <sub>• <b>Customer_Churn_Prediction</b>: No description.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
 
