@@ -26,15 +26,15 @@
 
 <!--START_SECTION:recent_repos-->
 <div align="center">
+  <a href="https://github.com/RamvignesH-R/Global_Trotter_Odos_Hackathon" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Global_Trotter_Odos_Hackathon&theme=dracula&hide_border=false" alt="Global_Trotter_Odos_Hackathon repo card" /></a>
   <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
   <a href="https://github.com/RamvignesH-R/Implementation_VAE_Using_Pytorch" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Implementation_VAE_Using_Pytorch&theme=dracula&hide_border=false" alt="Implementation_VAE_Using_Pytorch repo card" /></a>
-  <a href="https://github.com/RamvignesH-R/Health_and_Diet_Recommendation_ML_Model" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Health_and_Diet_Recommendation_ML_Model&theme=dracula&hide_border=false" alt="Health_and_Diet_Recommendation_ML_Model repo card" /></a>
 </div>
 
 <p align="center">
+  <sub>• <b>Global_Trotter_Odos_Hackathon</b>: No description.</sub><br>
   <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
-  <sub>• <b>Implementation_VAE_Using_Pytorch</b>: No description.</sub><br>
-  <sub>• <b>Health_and_Diet_Recommendation_ML_Model</b>: No description.</sub><br></p>
+  <sub>• <b>Implementation_VAE_Using_Pytorch</b>: No description.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
 
