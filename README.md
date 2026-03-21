@@ -98,7 +98,7 @@
     <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="telegram logo"  />
   </a>
   <!-- Resume Viewer Button: REPLACE the href below with your Google Drive share link (Anyone with link can view) -->
-  <a href="https://drive.google.com/file/d/1H3JeP2R818diskWakV7RXFBfMxlyuiSF/view?usp=drive_link" target="_blank">
+  <a href="https://drive.google.com/file/d/1H3JeP2R818diskWakV7RXFBfMxlyuiSF/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Resume&logo=googledrive&label=&color=4285F4&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="resume logo"  />
   </a>
 </div>
