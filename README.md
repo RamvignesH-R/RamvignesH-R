@@ -26,14 +26,14 @@
 
 <!--START_SECTION:recent_repos-->
 <div align="center">
-  <a href="https://github.com/RamvignesH-R/spendwise-ai" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=spendwise-ai&theme=dracula&hide_border=false" alt="spendwise-ai repo card" /></a>
   <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
+  <a href="https://github.com/RamvignesH-R/spendwise-ai" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=spendwise-ai&theme=dracula&hide_border=false" alt="spendwise-ai repo card" /></a>
   <a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=dracula&hide_border=false" alt="Privacy_Guard_AI_Chat_System repo card" /></a>
 </div>
 
 <p align="center">
-  <sub>• <b>spendwise-ai</b>: No description.</sub><br>
   <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
+  <sub>• <b>spendwise-ai</b>: No description.</sub><br>
   <sub>• <b>Privacy_Guard_AI_Chat_System</b>: No description.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
