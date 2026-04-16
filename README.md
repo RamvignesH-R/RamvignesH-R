@@ -26,14 +26,14 @@
 
 <!--START_SECTION:recent_repos-->
 <div align="center">
+  <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=dracula&hide_border=false" alt="Circuit-Verification-Using-Resolution repo card" /></a>
   <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
-  <a href="https://github.com/RamvignesH-R/Interactive-Wall-Calendar" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Interactive-Wall-Calendar&theme=dracula&hide_border=false" alt="Interactive-Wall-Calendar repo card" /></a>
   <a href="https://github.com/RamvignesH-R/Virtual_Cosmos_Multiplayer_Application" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Virtual_Cosmos_Multiplayer_Application&theme=dracula&hide_border=false" alt="Virtual_Cosmos_Multiplayer_Application repo card" /></a>
 </div>
 
 <p align="center">
+  <sub>• <b>Circuit-Verification-Using-Resolution</b>: No description.</sub><br>
   <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
-  <sub>• <b>Interactive-Wall-Calendar</b>: No description.</sub><br>
   <sub>• <b>Virtual_Cosmos_Multiplayer_Application</b>: An expansive 2D multiplayer social application built on the MERN stack. Features a natively-mapped 60fps physics engine, global radar telemetry, and real-time Socket.io proximity chat.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
