@@ -26,15 +26,15 @@
 
 <!--START_SECTION:recent_repos-->
 <div align="center">
-  <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
   <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=dracula&hide_border=false" alt="Circuit-Verification-Using-Resolution repo card" /></a>
-  <a href="https://github.com/RamvignesH-R/Virtual_Cosmos_Multiplayer_Application" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Virtual_Cosmos_Multiplayer_Application&theme=dracula&hide_border=false" alt="Virtual_Cosmos_Multiplayer_Application repo card" /></a>
+  <a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=dracula&hide_border=false" alt="Privacy_Guard_AI_Chat_System repo card" /></a>
+  <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=dracula&hide_border=false" alt="RamvignesH-R repo card" /></a>
 </div>
 
 <p align="center">
-  <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br>
-  <sub>• <b>Circuit-Verification-Using-Resolution</b>: No description.</sub><br>
-  <sub>• <b>Virtual_Cosmos_Multiplayer_Application</b>: An expansive 2D multiplayer social application built on the MERN stack. Features a natively-mapped 60fps physics engine, global radar telemetry, and real-time Socket.io proximity chat.</sub><br></p>
+  <sub>• <b>Circuit-Verification-Using-Resolution</b>: An Artificial Intelligence exercise implementing propositional logic resolution and CNF-based reasoning using Python. The notebook demonstrates automated theorem proving, logical equivalence verification, and resolution refutation concepts in a practical learning-oriented workflow.</sub><br>
+  <sub>• <b>Privacy_Guard_AI_Chat_System</b>: AI-powered privacy protection system that masks sensitive personal information from chats and documents before cloud AI processing using FastAPI, React, OCR, BiLSTM, and Transformer-based NLP models.</sub><br>
+  <sub>• <b>RamvignesH-R</b>: Config files for my GitHub profile.</sub><br></p>
 <!--END_SECTION:recent_repos-->
 
 
