@@ -1,8 +1,8 @@
-<!-- ========================= HEADER ========================= -->
+<!-- ================= HEADER ================= -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=850&lines=Hi+I'm+Ramvignesh+R;AI+%26+ML+Enthusiast;Data+Science+Student;Building+Intelligent+Systems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=850&lines=Hi+I'm+Ramvignesh+R;AI+%26+ML+Enthusiast;Data+Science+Student;Computer+Vision+Developer" />
 
 </div>
 
@@ -13,14 +13,6 @@
 <h3 align="center">
 AI & ML Enthusiast • Data Science Student • Problem Solver
 </h3>
-
----
-
-<div align="center">
-
-Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, and building impactful intelligent systems.
-
-</div>
 
 ---
 
@@ -57,15 +49,15 @@ Loading dynamic repositories...
 
 <br><br>
 
-<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
+<img height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"/>
 
 <img width="18"/>
 
-<img height="48" src="https://cdn.simpleicons.org/kaggle/20BEFF" />
+<img height="52" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kaggle.svg"/>
 
 <img width="18"/>
 
-<img height="48" src="https://cdn.simpleicons.org/googlecolab/F9AB00" />
+<img height="52" src="https://www.vectorlogo.zone/logos/google_colab/google_colab-icon.svg"/>
 
 </div>
 
@@ -75,23 +67,23 @@ Loading dynamic repositories...
 
 <div align="center">
 
-<img height="65" src="https://cdn.simpleicons.org/openai/white" />
+<img height="65" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"/>
 
 <img width="25"/>
 
-<img height="65" src="https://cdn.simpleicons.org/anthropic/D97757" />
+<img height="65" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png"/>
 
 <img width="25"/>
 
-<img height="65" src="https://cdn.simpleicons.org/googlegemini/8E75FF" />
+<img height="65" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png"/>
 
 <img width="25"/>
 
-<img height="65" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
+<img height="65" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"/>
 
 <img width="25"/>
 
-<img height="65" src="https://cdn.simpleicons.org/x/white" />
+<img height="65" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"/>
 
 </div>
 
@@ -131,7 +123,7 @@ Loading dynamic repositories...
 
 <img 
 height="180em"
-src="https://github-readme-stats.vercel.app/api?username=RamvignesH-R&show_icons=true&theme=tokyonight&hide_border=true"
+src="https://github-readme-streak-stats.herokuapp.com/?user=RamvignesH-R&theme=tokyonight&hide_border=true"
 />
 
 <br><br>
