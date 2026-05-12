@@ -26,9 +26,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+        run: pip install requests
 
       - name: Update recent repos section
         env:
@@ -36,7 +34,7 @@ jobs:
           GITHUB_USER: ${{ github.repository_owner }}
 
         run: |
-          python <<'EOF'
+          python << 'EOF'
           import os
           import re
           import requests
@@ -65,21 +63,19 @@ jobs:
 
               name = repo["name"]
 
-              card = f'''
-<a href="https://github.com/{user}/{name}">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true"/>
-</a>
-'''
+              card = (
+                  f'<a href="https://github.com/{user}/{name}">'
+                  f'<img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true"/>'
+                  f'</a>'
+              )
 
               cards.append(card)
 
-          new_block = f"""
-<div align="center">
-
-{''.join(cards)}
-
-</div>
-"""
+          new_block = (
+              '<div align="center">'
+              + ''.join(cards)
+              + '</div>'
+          )
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
@@ -88,7 +84,7 @@ jobs:
 
           updated = re.sub(
               pattern,
-              r"\\1\n" + new_block + r"\n\\3",
+              r"\1\n" + new_block + r"\n\3",
               content,
               flags=re.DOTALL
           )
