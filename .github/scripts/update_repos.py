@@ -37,7 +37,7 @@ for repo in repos:
 
     line = (
         f"- 🚀 [{name}](https://github.com/{USER}/{name}) "
-        f"• {language} • ⭐ {stars}\n"
+        f"• {language} \n"
         f"  - {description}"
     )
 
