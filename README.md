@@ -54,6 +54,17 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 <!--END_SECTION:recent_repos-->
 
 ---
+# 🤝 Repositories with Collaboration
+
+<!--START_SECTION:collab_repos-->
+<div align="left">
+
+- Loading collaborator repositories...
+
+</div>
+<!--END_SECTION:collab_repos-->
+
+---
 
 # ⚡ Tech Stack
 
