@@ -1,6 +1,8 @@
 <!-- Typing Animation Header -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00BFFF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ramvignesh+R;Data+Science+Student;AI+%26+ML+Enthusiast;Passionate+Learner+%26+Developer;Problem+Solver" />
+  <img 
+    src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00BFFF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ramvignesh+R;Data+Science+Student;AI+%26+ML+Enthusiast;Passionate+Learner+%26+Developer;Problem+Solver"
+  />
 </div>
 
 ---
@@ -31,7 +33,32 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-<div align="center"><a href="https://github.com/RamvignesH-R/RamvignesH-R"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"/></a><a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true"/></a><a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"/></a></div>
+
+<div align="center">
+
+<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
+  <img 
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true&cache_seconds=86400"
+  />
+</a>
+
+<a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution">
+  <img 
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true&cache_seconds=86400"
+  />
+</a>
+
+<a href="https://github.com/RamvignesH-R/RamvignesH-R">
+  <img 
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true&cache_seconds=86400"
+  />
+</a>
+
+</div>
+
 <!--END_SECTION:recent_repos-->
 
 ---
@@ -40,11 +67,15 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,tensorflow,pytorch,opencv,flask,mysql,sqlite,aws,azure,github,git,vscode,pycharm,anaconda,linux&theme=dark"/>
+<img 
+  src="https://skillicons.dev/icons?i=python,c,cpp,java,tensorflow,pytorch,opencv,flask,mysql,sqlite,aws,azure,github,git,vscode,pycharm,anaconda,linux&theme=dark"
+/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=jupyter,kaggle,gcp&theme=dark"/>
+<img 
+  src="https://skillicons.dev/icons?i=jupyter,kaggle,gcp&theme=dark"
+/>
 
 </div>
 
@@ -54,19 +85,32 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" height="60"/>
+<img 
+  src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+  height="70"
+/>
 
-<img width="25"/>
+<img width="30"/>
 
-<img src="https://huggingface.co/front/assets/huggingface_logo.svg" height="60"/>
+<img 
+  src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg"
+  height="70"
+  style="filter: invert(84%) sepia(82%) saturate(682%) hue-rotate(347deg) brightness(104%) contrast(101%);"
+/>
 
-<img width="25"/>
+<img width="30"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg" height="60"/>
+<img 
+  src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg"
+  height="70"
+/>
 
-<img width="25"/>
+<img width="30"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" height="60"/>
+<img 
+  src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"
+  height="70"
+/>
 
 </div>
 
@@ -77,23 +121,33 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 <div align="center">
 
 <a href="https://www.instagram.com/rramvignesh?igsh=MWkwNnBhN3Nxd3diNg==">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <img 
+    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+  />
 </a>
 
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramvigneshr2004@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img 
+    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+  />
 </a>
 
 <a href="https://www.linkedin.com/in/ramvignesh-r-ab3048278/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img 
+    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+  />
 </a>
 
 <a href="https://t.me/Ramvicky2004">
-  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+  <img 
+    src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
+  />
 </a>
 
 <a href="https://drive.google.com/file/d/12GdFezJ_Bjfv8-2dXOfPYmsr9V6oA2xa/view?usp=sharing">
-  <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
+  <img 
+    src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
+  />
 </a>
 
 </div>
@@ -104,11 +158,17 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RamvignesH-R&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=RamvignesH-R&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
+/>
 
 <br><br>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamvignesH-R&layout=compact&theme=tokyonight&hide_border=true"/>
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamvignesH-R&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
+/>
 
 </div>
 
@@ -118,6 +178,8 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+<img
+  src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"
+/>
 
 </div>
