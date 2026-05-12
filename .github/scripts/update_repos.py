@@ -62,62 +62,37 @@ recent_section = (
 # COLLABORATOR REPOSITORIES
 # =========================================================
 
-events_response = requests.get(
-    f"https://api.github.com/users/{USER}/events/public",
+search_response = requests.get(
+    f"https://api.github.com/search/repositories?q=user:{USER}",
     headers=headers,
     timeout=30
 )
 
-events = events_response.json()
+search_data = search_response.json()
 
 collab_lines = []
 
-seen = set()
-
 count = 0
 
-for event in events:
+for repo in search_data.get("items", []):
 
-    repo_data = event.get("repo")
+    owner = repo["owner"]["login"]
 
-    if not repo_data:
-        continue
-
-    repo_name = repo_data.get("name")
-
-    if not repo_name:
-        continue
-
-    owner = repo_name.split("/")[0]
-
+    # Skip your own repositories
     if owner.lower() == USER.lower():
         continue
 
-    if repo_name in seen:
-        continue
-
-    seen.add(repo_name)
-
-    repo_response = requests.get(
-        f"https://api.github.com/repos/{repo_name}",
-        headers=headers,
-        timeout=30
-    )
-
-    if repo_response.status_code != 200:
-        continue
-
-    repo = repo_response.json()
+    name = repo["name"]
 
     description = repo.get("description") or "No description"
 
-    language = repo.get("language") or "Config"
+    language = repo.get("language") or "Unknown"
 
     stars = repo.get("stargazers_count", 0)
 
     line = (
-        f"- 🤝 [{repo_name}]({repo['html_url']}) "
-        f"• {language}\n"
+        f"- 🤝 [{owner}/{name}]({repo['html_url']}) "
+        f"• {language} \n"
         f"  - {description}"
     )
 
@@ -128,12 +103,17 @@ for event in events:
     if count >= 5:
         break
 
+if not collab_lines:
+
+    collab_lines.append(
+        "- No public collaborator repositories found."
+    )
+
 collab_section = (
     "<div align=\"left\">\n\n"
     + "\n\n".join(collab_lines)
     + "\n\n</div>"
 )
-
 # =========================================================
 # UPDATE README
 # =========================================================
