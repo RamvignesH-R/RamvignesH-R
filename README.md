@@ -14,7 +14,7 @@ Data Science Student | AI & ML Enthusiast | Problem Solver
 ---
 
 <p align="center">
-I am a data-driven problem solver passionate about Artificial Intelligence, Machine Learning, Deep Learning, and intelligent systems. I enjoy building impactful projects, exploring modern technologies, and continuously improving my technical and analytical skills through real-world development.
+I am passionate about Artificial Intelligence, Machine Learning, Deep Learning, and intelligent systems. I enjoy building impactful projects, exploring modern technologies, and continuously improving my technical and analytical skills through real-world development.
 </p>
 
 ---
@@ -31,27 +31,23 @@ I am a data-driven problem solver passionate about Artificial Intelligence, Mach
 
 # 🔭 Recently Working Repositories
 
-
 <div align="center">
 
 <a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
   <img 
     src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
-    alt="Privacy Guard Repo"
   />
 </a>
 
 <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution">
   <img 
     src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true"
-    alt="Circuit Verification Repo"
   />
 </a>
 
 <a href="https://github.com/RamvignesH-R/RamvignesH-R">
   <img 
     src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
-    alt="Profile Repo"
   />
 </a>
 
@@ -77,19 +73,15 @@ I am a data-driven problem solver passionate about Artificial Intelligence, Mach
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="60" />
-
-<img width="25"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="60" />
-
-<img width="25"/>
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" height="60"/>
 
 <img width="25"/>
 
 <img src="https://huggingface.co/front/assets/huggingface_logo.svg" height="60"/>
+
+<img width="25"/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg" height="60"/>
 
 <img width="25"/>
 
@@ -104,38 +96,23 @@ I am a data-driven problem solver passionate about Artificial Intelligence, Mach
 <div align="center">
 
 <a href="https://www.instagram.com/rramvignesh?igsh=MWkwNnBhN3Nxd3diNg==" target="_blank">
-  <img 
-    src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge"
-    height="35"
-  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="35"/>
 </a>
 
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramvigneshr2004@gmail.com" target="_blank">
-  <img 
-    src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge"
-    height="35"
-  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="35"/>
 </a>
 
 <a href="https://www.linkedin.com/in/ramvignesh-r-ab3048278/" target="_blank">
-  <img 
-    src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge"
-    height="35"
-  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="35"/>
 </a>
 
 <a href="https://t.me/Ramvicky2004" target="_blank">
-  <img 
-    src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&style=for-the-badge"
-    height="35"
-  />
+  <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&color=2CA5E0&logoColor=white&style=for-the-badge" height="35"/>
 </a>
 
 <a href="https://drive.google.com/file/d/12GdFezJ_Bjfv8-2dXOfPYmsr9V6oA2xa/view?usp=sharing" target="_blank">
-  <img 
-    src="https://img.shields.io/static/v1?message=Resume&logo=googledrive&label=&color=4285F4&logoColor=white&style=for-the-badge"
-    height="35"
-  />
+  <img src="https://img.shields.io/static/v1?message=Resume&logo=googledrive&color=4285F4&logoColor=white&style=for-the-badge" height="35"/>
 </a>
 
 </div>
