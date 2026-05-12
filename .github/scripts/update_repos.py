@@ -11,7 +11,7 @@ headers = {
 }
 
 response = requests.get(
-    f"https://api.github.com/users/{USER}/repos?sort=updated&per_page=10",
+    f"https://api.github.com/users/{USER}/repos?sort=updated&per_page=20",
     headers=headers,
     timeout=30
 )
@@ -29,14 +29,14 @@ for repo in repos:
 
     name = repo["name"]
 
-    card = f"""
+    card = f'''
 <a href="https://github.com/{USER}/{name}">
   <img
-    height="165"
+    width="390"
     src="https://github-readme-stats.vercel.app/api/pin/?username={USER}&repo={name}&theme=tokyonight&hide_border=true"
   />
 </a>
-"""
+'''
 
     cards.append(card)
 
@@ -45,13 +45,13 @@ for repo in repos:
     if count >= 3:
         break
 
-new_section = f"""
+new_section = f'''
 <div align="center">
 
 {''.join(cards)}
 
 </div>
-"""
+'''
 
 with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
