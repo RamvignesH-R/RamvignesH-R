@@ -3,7 +3,7 @@ name: Update Recent Repos in Profile README
 on:
   schedule:
     - cron: "0 */12 * * *"   # Every 12 hours (UTC)
-  workflow_dispatch:        # Allow manual run
+  workflow_dispatch:          # Allow manual run
   push:
     branches:
       - main
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
         uses: actions/setup-python@v5
