@@ -2,8 +2,8 @@ name: Update Recent Repos in Profile README
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Every 12 hours (UTC)
-  workflow_dispatch:          # Allow manual run
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -11,11 +11,11 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update-recent-repos:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v5
@@ -37,12 +37,17 @@ jobs:
           MAX_REPOS: "3"
           EXCLUDE_FORKS: "true"
           EXCLUDE_ARCHIVED: "true"
+
         run: |
           python <<'EOF'
-          import os, re, requests, sys
+          import os
+          import re
+          import requests
+          import sys
 
           token = os.getenv("GITHUB_TOKEN")
           user = os.getenv("GITHUB_USER")
+
           max_repos = int(os.getenv("MAX_REPOS", "3"))
           exclude_forks = os.getenv("EXCLUDE_FORKS", "true").lower() == "true"
           exclude_archived = os.getenv("EXCLUDE_ARCHIVED", "true").lower() == "true"
@@ -54,80 +59,132 @@ jobs:
           }
 
           url = f"https://api.github.com/users/{user}/repos?per_page=100&sort=updated"
-          resp = requests.get(url, headers=headers, timeout=30)
-          if resp.status_code != 200:
-              print("Failed to fetch repos:", resp.status_code, resp.text)
+
+          response = requests.get(url, headers=headers, timeout=30)
+
+          if response.status_code != 200:
+              print("Failed to fetch repos")
+              print(response.text)
               sys.exit(1)
-          repos = resp.json()
+
+          repos = response.json()
 
           filtered = []
-          for r in repos:
-              if exclude_forks and r.get("fork"):
-                  continue
-              if exclude_archived and r.get("archived"):
-                  continue
-              filtered.append(r)
 
-          filtered.sort(key=lambda r: r.get("pushed_at") or r.get("updated_at") or "", reverse=True)
-          top = filtered[:max_repos]
+          for repo in repos:
+
+              if exclude_forks and repo.get("fork"):
+                  continue
+
+              if exclude_archived and repo.get("archived"):
+                  continue
+
+              filtered.append(repo)
+
+          filtered.sort(
+              key=lambda r: r.get("pushed_at") or r.get("updated_at") or "",
+              reverse=True
+          )
+
+          top_repos = filtered[:max_repos]
 
           cards = []
           blurbs = []
-          for r in top:
-              name = r["name"]
-              desc = (r.get("description") or "No description.").strip()
-              cards.append(
-                  f'  <a href="https://github.com/{user}/{name}" target="_blank">'
-                  f'<img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=dracula&hide_border=false" alt="{name} repo card" /></a>'
+
+          for repo in top_repos:
+
+              name = repo["name"]
+
+              desc = (
+                  repo.get("description")
+                  or "No description available."
+              ).strip()
+
+              language = repo.get("language") or "Unknown"
+
+              stars = repo.get("stargazers_count", 0)
+
+              card = f"""
+              <a href="https://github.com/{user}/{name}" target="_blank">
+                <img
+                  src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400"
+                  alt="{name} repo card"
+                />
+              </a>
+              """
+
+              cards.append(card)
+
+              blurbs.append(
+                  f'''
+                  <sub>
+                  • <b>{name}</b> ({language}) ⭐ {stars}<br>
+                  {desc}
+                  </sub><br><br>
+                  '''
               )
-              blurbs.append(f'  <sub>• <b>{name}</b>: {desc}</sub><br>')
 
           if not cards:
-              new_block = "*No recent public repo activity.*"
+              new_block = "*No recent public repository activity.*"
+
           else:
+
               new_block = (
-                  '<div align="center">\n' + "\n".join(cards) + '\n</div>\n\n'
-                  '<p align="center">\n' + "\n".join(blurbs) + '</p>'
+                  '<div align="center">\n'
+                  + "\n".join(cards)
+                  + '\n</div>\n\n'
+                  + '<p align="center">\n'
+                  + "\n".join(blurbs)
+                  + '\n</p>'
               )
 
           readme_path = "README.md"
+
           try:
-              with open(readme_path, "r", encoding="utf-8") as f:
-                  content = f.read()
+              with open(readme_path, "r", encoding="utf-8") as file:
+                  content = file.read()
+
           except FileNotFoundError:
-              print("README.md not found at repo root.")
+              print("README.md not found.")
               sys.exit(1)
 
           pattern = r"(<!--START_SECTION:recent_repos-->)(.*?)(<!--END_SECTION:recent_repos-->)"
-          new_content, n = re.subn(
+
+          new_content, replaced = re.subn(
               pattern,
               r"\1\n" + new_block + r"\n\3",
               content,
               flags=re.DOTALL,
           )
 
-          if n == 0:
-              print("Markers not found. Did you paste the START/END_SECTION comments?")
+          if replaced == 0:
+              print("README markers not found.")
               sys.exit(1)
 
           if new_content == content:
-              print("No change to README; skipping commit.")
+              print("No README changes detected.")
               sys.exit(0)
 
-          with open(readme_path, "w", encoding="utf-8") as f:
-              f.write(new_content)
+          with open(readme_path, "w", encoding="utf-8") as file:
+              file.write(new_content)
 
-          print("README updated with recent repos.")
+          print("README updated successfully.")
+
           EOF
 
-      - name: Commit & push if changed
+      - name: Commit and push changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
+
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
             git add README.md
-            git commit -m "chore: update recent repos section [skip ci]"
+
+            git commit -m "chore: update recent repos"
+
             git push
+
           else
             echo "No changes to commit."
           fi
