@@ -18,7 +18,7 @@ response = requests.get(
 
 repos = response.json()
 
-cards = []
+repo_lines = []
 
 count = 0
 
@@ -29,29 +29,30 @@ for repo in repos:
 
     name = repo["name"]
 
-    card = f'''
-<a href="https://github.com/{USER}/{name}">
-  <img
-    width="390"
-    src="https://github-readme-stats.vercel.app/api/pin/?username={USER}&repo={name}&theme=tokyonight&hide_border=true"
-  />
-</a>
-'''
+    description = repo.get("description") or "No description"
 
-    cards.append(card)
+    language = repo.get("language") or "Unknown"
+
+    stars = repo.get("stargazers_count", 0)
+
+    line = (
+        f"- 🚀 [{name}](https://github.com/{USER}/{name}) "
+        f"• {language} • ⭐ {stars}\n"
+        f"  - {description}"
+    )
+
+    repo_lines.append(line)
 
     count += 1
 
-    if count >= 3:
+    if count >= 5:
         break
 
-new_section = f'''
-<div align="center">
-
-{''.join(cards)}
-
-</div>
-'''
+new_section = (
+    "<div align=\"left\">\n\n"
+    + "\n\n".join(repo_lines)
+    + "\n\n</div>"
+)
 
 with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
