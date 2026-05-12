@@ -33,30 +33,34 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
+
 <div align="center">
 
-<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
+
+<a href="https://github.com/RamvignesH-R/RamvignesH-R">
   <img
-    width="390"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
   />
 </a>
 
 <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution">
   <img
-    width="390"
+    height="165"
     src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true"
   />
 </a>
 
-<a href="https://github.com/RamvignesH-R/RamvignesH-R">
+<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
   <img
-    width="390"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
   />
 </a>
 
+
 </div>
+
 <!--END_SECTION:recent_repos-->
 
 ---
