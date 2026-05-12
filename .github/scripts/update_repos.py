@@ -10,10 +10,6 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
-# =========================================================
-# OWN RECENT REPOSITORIES
-# =========================================================
-
 response = requests.get(
     f"https://api.github.com/users/{USER}/repos?sort=updated&per_page=20",
     headers=headers,
@@ -40,7 +36,7 @@ for repo in repos:
     stars = repo.get("stargazers_count", 0)
 
     line = (
-        f"- 🚀 [{name}]({repo['html_url']}) "
+        f"- 🚀 [{name}](https://github.com/{USER}/{name}) "
         f"• {language} \n"
         f"  - {description}"
     )
@@ -52,49 +48,32 @@ for repo in repos:
     if count >= 5:
         break
 
-recent_section = (
+new_section = (
     "<div align=\"left\">\n\n"
     + "\n\n".join(repo_lines)
     + "\n\n</div>"
 )
 
-
-# =========================================================
-# UPDATE README
-# =========================================================
-
 with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
 
-# RECENT REPOS
-recent_pattern = re.compile(
-    r"<!--START_SECTION:recent_repos-->.*?<!--END_SECTION:recent_repos-->",
+start_marker = "<!--START_SECTION:recent_repos-->"
+end_marker = "<!--END_SECTION:recent_repos-->"
+
+pattern = re.compile(
+    f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
     re.DOTALL
 )
 
-recent_replacement = (
-    "<!--START_SECTION:recent_repos-->\n"
-    + recent_section +
-    "\n<!--END_SECTION:recent_repos-->"
+replacement = (
+    f"{start_marker}\n"
+    f"{new_section}\n"
+    f"{end_marker}"
 )
 
-content = recent_pattern.sub(recent_replacement, content)
-
-# COLLAB REPOS
-collab_pattern = re.compile(
-    r"<!--START_SECTION:collab_repos-->.*?<!--END_SECTION:collab_repos-->",
-    re.DOTALL
-)
-
-collab_replacement = (
-    "<!--START_SECTION:collab_repos-->\n"
-    + collab_section +
-    "\n<!--END_SECTION:collab_repos-->"
-)
-
-content = collab_pattern.sub(collab_replacement, content)
+updated_content = pattern.sub(replacement, content)
 
 with open("README.md", "w", encoding="utf-8") as file:
-    file.write(content)
+    file.write(updated_content)
 
 print("README updated successfully")
