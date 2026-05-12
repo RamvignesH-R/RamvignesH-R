@@ -27,7 +27,7 @@ for repo in repos:
     if repo.get("fork"):
         continue
 
-    name = repo["name"]
+    name = repo.get("name", "Unknown")
 
     description = repo.get("description") or "No description"
 
@@ -57,16 +57,23 @@ new_section = (
 with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
 
-pattern = r"(<!--START_SECTION:recent_repos-->)(.*?)(<!--END_SECTION:recent_repos-->)"
+start_marker = "<!--START_SECTION:recent_repos-->"
+end_marker = "<!--END_SECTION:recent_repos-->"
 
-updated = re.sub(
-    pattern,
-    r"\1\n" + new_section + r"\n\3",
-    content,
-    flags=re.DOTALL
+pattern = re.compile(
+    f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
+    re.DOTALL
 )
 
+replacement = (
+    f"{start_marker}\n"
+    f"{new_section}\n"
+    f"{end_marker}"
+)
+
+updated_content = pattern.sub(replacement, content)
+
 with open("README.md", "w", encoding="utf-8") as file:
-    file.write(updated)
+    file.write(updated_content)
 
 print("README updated successfully")
