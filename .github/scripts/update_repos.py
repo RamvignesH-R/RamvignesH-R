@@ -10,6 +10,10 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
+# =========================================================
+# OWN RECENT REPOSITORIES
+# =========================================================
+
 response = requests.get(
     f"https://api.github.com/users/{USER}/repos?sort=updated&per_page=20",
     headers=headers,
@@ -36,7 +40,7 @@ for repo in repos:
     stars = repo.get("stargazers_count", 0)
 
     line = (
-        f"- 🚀 [{name}](https://github.com/{USER}/{name}) "
+        f"- 🚀 [{name}]({repo['html_url']}) "
         f"• {language} \n"
         f"  - {description}"
     )
@@ -48,32 +52,124 @@ for repo in repos:
     if count >= 5:
         break
 
-new_section = (
+recent_section = (
     "<div align=\"left\">\n\n"
     + "\n\n".join(repo_lines)
     + "\n\n</div>"
 )
 
+# =========================================================
+# COLLABORATOR REPOSITORIES
+# =========================================================
+
+events_response = requests.get(
+    f"https://api.github.com/users/{USER}/events/public",
+    headers=headers,
+    timeout=30
+)
+
+events = events_response.json()
+
+collab_lines = []
+
+seen = set()
+
+count = 0
+
+for event in events:
+
+    repo_data = event.get("repo")
+
+    if not repo_data:
+        continue
+
+    repo_name = repo_data.get("name")
+
+    if not repo_name:
+        continue
+
+    owner = repo_name.split("/")[0]
+
+    if owner.lower() == USER.lower():
+        continue
+
+    if repo_name in seen:
+        continue
+
+    seen.add(repo_name)
+
+    repo_response = requests.get(
+        f"https://api.github.com/repos/{repo_name}",
+        headers=headers,
+        timeout=30
+    )
+
+    if repo_response.status_code != 200:
+        continue
+
+    repo = repo_response.json()
+
+    description = repo.get("description") or "No description"
+
+    language = repo.get("language") or "Config"
+
+    stars = repo.get("stargazers_count", 0)
+
+    line = (
+        f"- 🤝 [{repo_name}]({repo['html_url']}) "
+        f"• {language}\n"
+        f"  - {description}"
+    )
+
+    collab_lines.append(line)
+
+    count += 1
+
+    if count >= 5:
+        break
+
+collab_section = (
+    "<div align=\"left\">\n\n"
+    + "\n\n".join(collab_lines)
+    + "\n\n</div>"
+)
+
+# =========================================================
+# UPDATE README
+# =========================================================
+
 with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
 
-start_marker = "<!--START_SECTION:recent_repos-->"
-end_marker = "<!--END_SECTION:recent_repos-->"
-
-pattern = re.compile(
-    f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
+# RECENT REPOS
+recent_pattern = re.compile(
+    r"<!--START_SECTION:recent_repos-->.*?<!--END_SECTION:recent_repos-->",
     re.DOTALL
 )
 
-replacement = (
-    f"{start_marker}\n"
-    f"{new_section}\n"
-    f"{end_marker}"
+recent_replacement = (
+    "<!--START_SECTION:recent_repos-->\n"
+    + recent_section +
+    "\n<!--END_SECTION:recent_repos-->"
 )
 
-updated_content = pattern.sub(replacement, content)
+content = recent_pattern.sub(recent_replacement, content)
+
+# COLLAB REPOS
+collab_pattern = re.compile(
+    r"<!--START_SECTION:collab_repos-->.*?<!--END_SECTION:collab_repos-->",
+    re.DOTALL
+)
+
+collab_replacement = (
+    "<!--START_SECTION:collab_repos-->\n"
+    + collab_section +
+    "\n<!--END_SECTION:collab_repos-->"
+)
+
+content = collab_pattern.sub(collab_replacement, content)
 
 with open("README.md", "w", encoding="utf-8") as file:
-    file.write(updated_content)
+    file.write(content)
 
 print("README updated successfully")
