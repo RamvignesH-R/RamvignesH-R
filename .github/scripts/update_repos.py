@@ -62,37 +62,35 @@ recent_section = (
 # COLLABORATOR REPOSITORIES
 # =========================================================
 
-search_response = requests.get(
-    f"https://api.github.com/search/repositories?q=user:{USER}",
+collab_response = requests.get(
+    "https://api.github.com/user/repos?affiliation=collaborator&per_page=100",
     headers=headers,
     timeout=30
 )
 
-search_data = search_response.json()
+collab_repos = collab_response.json()
 
 collab_lines = []
 
 count = 0
 
-for repo in search_data.get("items", []):
+for repo in collab_repos:
 
     owner = repo["owner"]["login"]
 
-    # Skip your own repositories
-    if owner.lower() == USER.lower():
-        continue
-
     name = repo["name"]
+
+    full_name = repo["full_name"]
 
     description = repo.get("description") or "No description"
 
-    language = repo.get("language") or "Unknown"
+    language = repo.get("language") or "Config"
 
     stars = repo.get("stargazers_count", 0)
 
     line = (
-        f"- 🤝 [{owner}/{name}]({repo['html_url']}) "
-        f"• {language} \n"
+        f"- 🤝 [{full_name}]({repo['html_url']}) "
+        f"• {language}\n"
         f"  - {description}"
     )
 
@@ -100,13 +98,13 @@ for repo in search_data.get("items", []):
 
     count += 1
 
-    if count >= 5:
+    if count >= 10:
         break
 
 if not collab_lines:
 
     collab_lines.append(
-        "- No public collaborator repositories found."
+        "- No collaborator repositories found."
     )
 
 collab_section = (
