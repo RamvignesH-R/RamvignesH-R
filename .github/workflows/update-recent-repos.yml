@@ -1,15 +1,15 @@
 name: Update Recent Repos in Profile README
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
-
   workflow_dispatch:
 
   push:
     branches:
       - main
       - master
+
+  schedule:
+    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
@@ -27,16 +27,18 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install requests
         run: pip install requests
 
-      - name: Update README repositories
+      - name: Update README section
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
 
         run: |
-          python << 'EOF'
+
+          python <<EOF
+
           import os
           import re
           import requests
@@ -67,37 +69,29 @@ jobs:
 
               name = repo["name"]
 
-              description = repo.get("description") or "No description"
-
-              card = f"""
-<table>
-<tr>
-<td width="50%">
-
-### 🚀 [{name}](https://github.com/{user}/{name})
-
-{description}
-
-</td>
-
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
-
-</td>
-</tr>
-</table>
-
-"""
+              card = f'''
+<a href="https://github.com/{user}/{name}">
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true"
+  />
+</a>
+'''
 
               cards.append(card)
 
               count += 1
 
-              if count == 3:
+              if count >= 3:
                   break
 
-          new_block = "\n".join(cards)
+          new_block = f"""
+<div align="center">
+
+{''.join(cards)}
+
+</div>
+"""
 
           with open("README.md", "r", encoding="utf-8") as file:
               content = file.read()
@@ -106,7 +100,7 @@ jobs:
 
           updated_content = re.sub(
               pattern,
-              r"\1\n" + new_block + r"\n\3",
+              r"\\1\n" + new_block + r"\n\\3",
               content,
               flags=re.DOTALL
           )
@@ -120,6 +114,7 @@ jobs:
 
       - name: Commit changes
         run: |
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
