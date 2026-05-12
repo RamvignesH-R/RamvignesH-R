@@ -1,9 +1,8 @@
-<!-- ================= HEADER ================= -->
-
+<!-- Typing Animation Header -->
 <div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=850&lines=Hi+I'm+Ramvignesh+R;AI+%26+ML+Enthusiast;Data+Science+Student;Computer+Vision+Developer" />
-
+  <img
+    src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00BFFF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ramvignesh+R;Data+Science+Student;AI+%26+ML+Enthusiast;Passionate+Learner+%26+Developer;Problem+Solver"
+  />
 </div>
 
 ---
@@ -11,18 +10,22 @@
 <h1 align="center">Hi 👋, I'm Ramvignesh R</h1>
 
 <h3 align="center">
-AI & ML Enthusiast • Data Science Student • Problem Solver
+Data Science Student | AI & ML Enthusiast | Problem Solver
 </h3>
 
 ---
 
+<p align="center">
+Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data Science, and building impactful intelligent systems.
+</p>
+
+---
+
 <div align="center">
-
-<img 
-src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"
-width="700"
-/>
-
+  <img
+    src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif?raw=true"
+    width="700"
+  />
 </div>
 
 ---
@@ -30,34 +33,30 @@ width="700"
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-
 <div align="center">
 
-
-<a href="https://github.com/RamvignesH-R/RamvignesH-R">
+<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
   <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
+    width="390"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
   />
 </a>
 
 <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution">
   <img
-    height="165"
+    width="390"
     src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true"
   />
 </a>
 
-<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
+<a href="https://github.com/RamvignesH-R/RamvignesH-R">
   <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
+    width="390"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
   />
 </a>
 
-
 </div>
-
 <!--END_SECTION:recent_repos-->
 
 ---
@@ -66,19 +65,25 @@ width="700"
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,tensorflow,pytorch,opencv,flask,mysql,sqlite,aws,azure,github,git,vscode,pycharm,anaconda,linux,jupyter&theme=dark" />
+<img
+  src="https://skillicons.dev/icons?i=python,c,cpp,java,tensorflow,pytorch,opencv,flask,mysql,sqlite,aws,azure,github,git,vscode,pycharm,anaconda,linux&theme=dark"
+/>
 
 <br><br>
 
-<img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"/>
+<img
+  src="https://skillicons.dev/icons?i=jupyter&theme=dark"
+/>
 
-<img width="15"/>
+<img
+  src="https://cdn.simpleicons.org/kaggle/20BEFF"
+  height="48"
+/>
 
-<img height="45" src="https://img.icons8.com/color/96/kaggle.png"/>
-
-<img width="15"/>
-
-<img height="45" src="https://img.icons8.com/color/96/google-colab.png"/>
+<img
+  src="https://cdn.simpleicons.org/googlecolab/F9AB00"
+  height="48"
+/>
 
 </div>
 
@@ -88,23 +93,38 @@ width="700"
 
 <div align="center">
 
-<img height="48" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"/>
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+  height="55"
+/>
 
-<img width="22"/>
+<img width="25"/>
 
-<img height="48" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png"/>
+<img
+  src="https://cdn.simpleicons.org/claude"
+  height="55"
+/>
 
-<img width="22"/>
+<img width="25"/>
 
-<img height="48" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png"/>
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg"
+  height="55"
+/>
 
-<img width="22"/>
+<img width="25"/>
 
-<img height="48" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"/>
+<img
+  src="https://cdn.simpleicons.org/huggingface/FFD21E"
+  height="55"
+/>
 
-<img width="22"/>
+<img width="25"/>
 
-<img height="48" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"/>
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"
+  height="55"
+/>
 
 </div>
 
@@ -115,23 +135,33 @@ width="700"
 <div align="center">
 
 <a href="https://www.instagram.com/rramvignesh?igsh=MWkwNnBhN3Nxd3diNg==">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+  />
 </a>
 
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramvigneshr2004@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+  />
 </a>
 
 <a href="https://www.linkedin.com/in/ramvignesh-r-ab3048278/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+  />
 </a>
 
 <a href="https://t.me/Ramvicky2004">
-<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
+  />
 </a>
 
 <a href="https://drive.google.com/file/d/12GdFezJ_Bjfv8-2dXOfPYmsr9V6oA2xa/view?usp=sharing">
-<img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
+  <img
+    src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
+  />
 </a>
 
 </div>
@@ -142,6 +172,8 @@ width="700"
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+<img
+  src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"
+/>
 
 </div>
