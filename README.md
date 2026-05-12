@@ -22,53 +22,7 @@ I am a data-driven problem solver with a keen interest in Machine Learning, Deep
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-<div align="center">
-
-    <a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank">
-      <img
-        src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400"
-        alt="RamvignesH-R repo card"
-      />
-    </a>
-    
-
-    <a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution" target="_blank">
-      <img
-        src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400"
-        alt="Circuit-Verification-Using-Resolution repo card"
-      />
-    </a>
-    
-
-    <a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System" target="_blank">
-      <img
-        src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400"
-        alt="Privacy_Guard_AI_Chat_System repo card"
-      />
-    </a>
-    
-</div>
-
-<p align="center">
-
-        <sub>
-        • <b>RamvignesH-R</b> (Unknown) ⭐ 0<br>
-        Config files for my GitHub profile.
-        </sub><br><br>
-        
-
-        <sub>
-        • <b>Circuit-Verification-Using-Resolution</b> (Jupyter Notebook) ⭐ 0<br>
-        An Artificial Intelligence exercise implementing propositional logic resolution and CNF-based reasoning using Python. The notebook demonstrates automated theorem proving, logical equivalence verification, and resolution refutation concepts in a practical learning-oriented workflow.
-        </sub><br><br>
-        
-
-        <sub>
-        • <b>Privacy_Guard_AI_Chat_System</b> (Python) ⭐ 0<br>
-        AI-powered privacy protection system that masks sensitive personal information from chats and documents before cloud AI processing using FastAPI, React, OCR, BiLSTM, and Transformer-based NLP models.
-        </sub><br><br>
-        
-</p>
+<div align="center"><a href="https://github.com/RamvignesH-R/RamvignesH-R" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400" alt="RamvignesH-R repo card"/></a><a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400" alt="Circuit-Verification-Using-Resolution repo card"/></a><a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400" alt="Privacy_Guard_AI_Chat_System repo card"/></a></div><br><div align="center"><sub>• <b>RamvignesH-R</b> (Unknown) ⭐ 0<br>Config files for my GitHub profile.</sub><br><br><sub>• <b>Circuit-Verification-Using-Resolution</b> (Jupyter Notebook) ⭐ 0<br>An Artificial Intelligence exercise implementing propositional logic resolution and CNF-based reasoning using Python. The notebook demonstrates automated theorem proving, logical equivalence verification, and resolution refutation concepts in a practical learning-oriented workflow.</sub><br><br><sub>• <b>Privacy_Guard_AI_Chat_System</b> (Python) ⭐ 0<br>AI-powered privacy protection system that masks sensitive personal information from chats and documents before cloud AI processing using FastAPI, React, OCR, BiLSTM, and Transformer-based NLP models.</sub><br><br></div>
 <!--END_SECTION:recent_repos-->
 
 ---
