@@ -35,7 +35,20 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 <!--START_SECTION:recent_repos-->
 <div align="left">
 
-- Loading recent repositories...
+- 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Unknown • ⭐ 0
+  - Config files for my GitHub profile.
+
+- 🚀 [Circuit-Verification-Using-Resolution](https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution) • Jupyter Notebook • ⭐ 0
+  - An Artificial Intelligence exercise implementing propositional logic resolution and CNF-based reasoning using Python. The notebook demonstrates automated theorem proving, logical equivalence verification, and resolution refutation concepts in a practical learning-oriented workflow.
+
+- 🚀 [Privacy_Guard_AI_Chat_System](https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System) • Python • ⭐ 0
+  - AI-powered privacy protection system that masks sensitive personal information from chats and documents before cloud AI processing using FastAPI, React, OCR, BiLSTM, and Transformer-based NLP models.
+
+- 🚀 [Virtual_Cosmos_Multiplayer_Application](https://github.com/RamvignesH-R/Virtual_Cosmos_Multiplayer_Application) • JavaScript • ⭐ 0
+  - An expansive 2D multiplayer social application built on the MERN stack. Features a natively-mapped 60fps physics engine, global radar telemetry, and real-time Socket.io proximity chat.
+
+- 🚀 [flowScribe-Transcription-Tool](https://github.com/RamvignesH-R/flowScribe-Transcription-Tool) • Python • ⭐ 0
+  - No description
 
 </div>
 <!--END_SECTION:recent_repos-->
