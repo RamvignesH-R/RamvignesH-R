@@ -16,7 +16,7 @@ Data Science Student | AI & ML Enthusiast | Problem Solver
 ---
 
 <p align="center">
-Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data Science, and building impactful intelligent systems.
+Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Data Science, with a strong curiosity for solving meaningful problems through technology. I enjoy building intelligent systems, exploring new ideas, and creating applications that can make a positive impact on people and everyday life.
 </p>
 
 ---
@@ -52,17 +52,6 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 </div>
 <!--END_SECTION:recent_repos-->
-
----
-# 🤝 Repositories with Collaboration
-
-<!--START_SECTION:collab_repos-->
-<div align="left">
-
-- No public collaborator repositories found.
-
-</div>
-<!--END_SECTION:collab_repos-->
 
 ---
 
@@ -162,8 +151,6 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 </div>
 
 ---
-
-# 🐍 Contribution Snake
 
 <div align="center">
 
