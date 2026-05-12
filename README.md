@@ -38,7 +38,13 @@ width="700"
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-<div align="center"><a href="https://github.com/RamvignesH-R/RamvignesH-R"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a><a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a><a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a></div>
+
+<div align="center">
+
+Loading dynamic repositories...
+
+</div>
+
 <!--END_SECTION:recent_repos-->
 
 ---
@@ -51,9 +57,15 @@ width="700"
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black"/>
+<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
 
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+<img width="18"/>
+
+<img height="48" src="https://cdn.simpleicons.org/kaggle/20BEFF" />
+
+<img width="18"/>
+
+<img height="48" src="https://cdn.simpleicons.org/googlecolab/F9AB00" />
 
 </div>
 
@@ -63,15 +75,23 @@ width="700"
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white"/>
+<img height="65" src="https://cdn.simpleicons.org/openai/white" />
 
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img width="25"/>
 
-<img src="https://img.shields.io/badge/Gemini-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+<img height="65" src="https://cdn.simpleicons.org/anthropic/D97757" />
 
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img width="25"/>
 
-<img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white"/>
+<img height="65" src="https://cdn.simpleicons.org/googlegemini/8E75FF" />
+
+<img width="25"/>
+
+<img height="65" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
+
+<img width="25"/>
+
+<img height="65" src="https://cdn.simpleicons.org/x/white" />
 
 </div>
 
@@ -111,19 +131,14 @@ width="700"
 
 <img 
 height="180em"
-src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RamvignesH-R&theme=tokyonight"
+src="https://github-readme-stats.vercel.app/api?username=RamvignesH-R&show_icons=true&theme=tokyonight&hide_border=true"
 />
 
 <br><br>
 
 <img 
 height="180em"
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RamvignesH-R&theme=tokyonight"
-/>
-
-<img 
-height="180em"
-src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RamvignesH-R&theme=tokyonight"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamvignesH-R&layout=compact&theme=tokyonight&hide_border=true"
 />
 
 </div>
