@@ -31,7 +31,7 @@ for repo in repos:
 
     description = repo.get("description") or "No description"
 
-    language = repo.get("language") or "Unknown"
+    language = repo.get("language") or "Config"
 
     stars = repo.get("stargazers_count", 0)
 
