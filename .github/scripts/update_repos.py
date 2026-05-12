@@ -58,60 +58,7 @@ recent_section = (
     + "\n\n</div>"
 )
 
-# =========================================================
-# COLLABORATOR REPOSITORIES
-# =========================================================
 
-collab_response = requests.get(
-    "https://api.github.com/user/repos?affiliation=collaborator&per_page=100",
-    headers=headers,
-    timeout=30
-)
-
-collab_repos = collab_response.json()
-
-collab_lines = []
-
-count = 0
-
-for repo in collab_repos:
-
-    owner = repo["owner"]["login"]
-
-    name = repo["name"]
-
-    full_name = repo["full_name"]
-
-    description = repo.get("description") or "No description"
-
-    language = repo.get("language") or "Config"
-
-    stars = repo.get("stargazers_count", 0)
-
-    line = (
-        f"- 🤝 [{full_name}]({repo['html_url']}) "
-        f"• {language}\n"
-        f"  - {description}"
-    )
-
-    collab_lines.append(line)
-
-    count += 1
-
-    if count >= 10:
-        break
-
-if not collab_lines:
-
-    collab_lines.append(
-        "- No collaborator repositories found."
-    )
-
-collab_section = (
-    "<div align=\"left\">\n\n"
-    + "\n\n".join(collab_lines)
-    + "\n\n</div>"
-)
 # =========================================================
 # UPDATE README
 # =========================================================
