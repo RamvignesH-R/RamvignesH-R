@@ -35,30 +35,7 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 <!--START_SECTION:recent_repos-->
 
 <div align="center">
-
-
-<a href="https://github.com/RamvignesH-R/RamvignesH-R">
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true"
-  />
-</a>
-
-<a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution">
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true"
-  />
-</a>
-
-<a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System">
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true"
-  />
-</a>
-
-
+Loading recent repositories...
 </div>
 
 <!--END_SECTION:recent_repos-->
@@ -69,25 +46,29 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
-<img
-  src="https://skillicons.dev/icons?i=python,c,cpp,java,tensorflow,pytorch,opencv,flask,mysql,sqlite,aws,azure,github,git,vscode,pycharm,anaconda,linux&theme=dark"
-/>
-
-<br><br>
-
-<img
-  src="https://skillicons.dev/icons?i=jupyter&theme=dark"
-/>
-
-<img
-  src="https://cdn.simpleicons.org/kaggle/20BEFF"
-  height="48"
-/>
-
-<img
-  src="https://cdn.simpleicons.org/googlecolab/F9AB00"
-  height="48"
-/>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" height="48"/>
+  <img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="48" height="48"/>
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="48" height="48"/>
+  <img src="https://cdn.simpleicons.org/kaggle/20BEFF" width="48" height="48"/>
+  <img src="https://cdn.simpleicons.org/googlecolab/F9AB00" width="48" height="48"/>
+</p>
 
 </div>
 
@@ -97,38 +78,24 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 
 <div align="center">
 
+<p>
 <img
-  src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
-  height="55"
+  src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="48" height="48"
+/>
+  <img
+  src="https://cdn.simpleicons.org/claude"  width="48" height="48"
+/>
+  <img
+  src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg"  width="48" height="48"
+/>
+  <img
+  src="https://cdn.simpleicons.org/huggingface/FFD21E"  width="48" height="48"
+/>
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"  width="48" height="48"
 />
 
-<img width="25"/>
-
-<img
-  src="https://cdn.simpleicons.org/claude"
-  height="55"
-/>
-
-<img width="25"/>
-
-<img
-  src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg"
-  height="55"
-/>
-
-<img width="25"/>
-
-<img
-  src="https://cdn.simpleicons.org/huggingface/FFD21E"
-  height="55"
-/>
-
-<img width="25"/>
-
-<img
-  src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"
-  height="55"
-/>
+</p>
 
 </div>
 
