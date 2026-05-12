@@ -49,15 +49,15 @@ Loading dynamic repositories...
 
 <br><br>
 
-<img height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"/>
+<img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"/>
 
-<img width="18"/>
+<img width="15"/>
 
-<img height="52" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kaggle.svg"/>
+<img height="45" src="https://img.icons8.com/color/96/kaggle.png"/>
 
-<img width="18"/>
+<img width="15"/>
 
-<img height="52" src="https://www.vectorlogo.zone/logos/google_colab/google_colab-icon.svg"/>
+<img height="45" src="https://img.icons8.com/color/96/google-colab.png"/>
 
 </div>
 
@@ -67,23 +67,23 @@ Loading dynamic repositories...
 
 <div align="center">
 
-<img height="65" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"/>
+<img height="48" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"/>
 
-<img width="25"/>
+<img width="22"/>
 
-<img height="65" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png"/>
+<img height="48" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png"/>
 
-<img width="25"/>
+<img width="22"/>
 
-<img height="65" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png"/>
+<img height="48" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png"/>
 
-<img width="25"/>
+<img width="22"/>
 
-<img height="65" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"/>
+<img height="48" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"/>
 
-<img width="25"/>
+<img width="22"/>
 
-<img height="65" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"/>
+<img height="48" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"/>
 
 </div>
 
@@ -112,26 +112,6 @@ Loading dynamic repositories...
 <a href="https://drive.google.com/file/d/12GdFezJ_Bjfv8-2dXOfPYmsr9V6oA2xa/view?usp=sharing">
 <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
 </a>
-
-</div>
-
----
-
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img 
-height="180em"
-src="https://github-readme-streak-stats.herokuapp.com/?user=RamvignesH-R&theme=tokyonight&hide_border=true"
-/>
-
-<br><br>
-
-<img 
-height="180em"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamvignesH-R&layout=compact&theme=tokyonight&hide_border=true"
-/>
 
 </div>
 
