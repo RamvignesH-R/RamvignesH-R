@@ -91,19 +91,19 @@ I am a data-driven problem solver with a keen interest in Machine Learning, Deep
 
 <div align="center">
 
-<img height="55" src="https://cdn.simpleicons.org/openai/74aa9c" />
+<img height="55" src="https://cdn.simpleicons.org/openai/74aa9c"/>
 <img width="20"/>
 
-<img height="55" src="https://cdn.simpleicons.org/googlegemini/8E75B2" />
+<img height="55" src="https://cdn.simpleicons.org/googlebard/8E75B2"/>
 <img width="20"/>
 
-<img height="55" src="https://cdn.simpleicons.org/anthropic/D97757" />
+<img height="55" src="https://cdn.simpleicons.org/anthropic/D97757"/>
 <img width="20"/>
 
-<img height="55" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
+<img height="55" src="https://cdn.simpleicons.org/huggingface/FFD21E"/>
 <img width="20"/>
 
-<img height="55" src="https://cdn.simpleicons.org/x/ffffff" />
+<img height="55" src="https://cdn.simpleicons.org/x/ffffff"/>
 
 </div>
 

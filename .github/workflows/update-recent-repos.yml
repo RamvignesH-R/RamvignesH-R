@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout profile repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -104,24 +104,12 @@ jobs:
 
               stars = repo.get("stargazers_count", 0)
 
-              card = f"""
-              <a href="https://github.com/{user}/{name}" target="_blank">
-                <img
-                  src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400"
-                  alt="{name} repo card"
-                />
-              </a>
-              """
+              card = f'<a href="https://github.com/{user}/{name}" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true&border_radius=15&show_icons=true&cache_seconds=86400" alt="{name} repo card"/></a>'
 
               cards.append(card)
 
               blurbs.append(
-                  f'''
-                  <sub>
-                  • <b>{name}</b> ({language}) ⭐ {stars}<br>
-                  {desc}
-                  </sub><br><br>
-                  '''
+                  f'<sub>• <b>{name}</b> ({language}) ⭐ {stars}<br>{desc}</sub><br><br>'
               )
 
           if not cards:
@@ -130,12 +118,11 @@ jobs:
           else:
 
               new_block = (
-                  '<div align="center">\n'
-                  + "\n".join(cards)
-                  + '\n</div>\n\n'
-                  + '<p align="center">\n'
-                  + "\n".join(blurbs)
-                  + '\n</p>'
+                  '<div align="center">'
+                  + "".join(cards)
+                  + '</div><br><div align="center">'
+                  + "".join(blurbs)
+                  + '</div>'
               )
 
           readme_path = "README.md"
@@ -160,10 +147,6 @@ jobs:
           if replaced == 0:
               print("README markers not found.")
               sys.exit(1)
-
-          if new_content == content:
-              print("No README changes detected.")
-              sys.exit(0)
 
           with open(readme_path, "w", encoding="utf-8") as file:
               file.write(new_content)
