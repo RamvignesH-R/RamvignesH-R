@@ -38,13 +38,7 @@ width="700"
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
-
-<div align="center">
-
-Loading dynamic repositories...
-
-</div>
-
+<div align="center"><a href="https://github.com/RamvignesH-R/RamvignesH-R"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=RamvignesH-R&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a><a href="https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Circuit-Verification-Using-Resolution&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a><a href="https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System"><img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=RamvignesH-R&repo=Privacy_Guard_AI_Chat_System&theme=tokyonight&hide_border=true&cache_seconds=86400"/></a></div>
 <!--END_SECTION:recent_repos-->
 
 ---
