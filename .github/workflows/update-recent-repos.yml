@@ -65,7 +65,7 @@ jobs:
 
               card = (
                   f'<a href="https://github.com/{user}/{name}">'
-                  f'<img src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true"/>'
+                  f'<img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username={user}&repo={name}&theme=tokyonight&hide_border=true&cache_seconds=86400"/>'
                   f'</a>'
               )
 
