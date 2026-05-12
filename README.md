@@ -33,11 +33,11 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Data 
 # 🔭 Recently Working Repositories
 
 <!--START_SECTION:recent_repos-->
+<div align="left">
 
-<div align="center">
-Loading recent repositories...
+- Loading recent repositories...
+
 </div>
-
 <!--END_SECTION:recent_repos-->
 
 ---
