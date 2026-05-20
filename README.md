@@ -35,11 +35,11 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 <!--START_SECTION:recent_repos-->
 <div align="left">
 
-- 🚀 [Bunsho-Assistant](https://github.com/RamvignesH-R/Bunsho-Assistant) • TypeScript 
-  - Navigate Japanese bureaucracy safely. An AI platform that reads, translates, and analyzes Japanese contracts for hidden legal risks using Gemini 1M-context and PaddleOCR.
-
 - 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Config 
   - Config files for my GitHub profile.
+
+- 🚀 [Bunsho-Assistant](https://github.com/RamvignesH-R/Bunsho-Assistant) • TypeScript 
+  - Navigate Japanese bureaucracy safely. An AI platform that reads, translates, and analyzes Japanese contracts for hidden legal risks using Gemini 1M-context and PaddleOCR.
 
 - 🚀 [Privacy_Guard_AI_Chat_System](https://github.com/RamvignesH-R/Privacy_Guard_AI_Chat_System) • Python 
   - AI-powered privacy protection system that masks sensitive personal information from chats and documents before cloud AI processing using FastAPI, React, OCR, BiLSTM, and Transformer-based NLP models.
