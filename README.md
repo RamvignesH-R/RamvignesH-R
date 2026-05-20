@@ -35,6 +35,9 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 <!--START_SECTION:recent_repos-->
 <div align="left">
 
+- 🚀 [Bunsho-Assistant](https://github.com/RamvignesH-R/Bunsho-Assistant) • TypeScript 
+  - Navigate Japanese bureaucracy safely. An AI platform that reads, translates, and analyzes Japanese contracts for hidden legal risks using Gemini 1M-context and PaddleOCR.
+
 - 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Config 
   - Config files for my GitHub profile.
 
@@ -46,9 +49,6 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 
 - 🚀 [Virtual_Cosmos_Multiplayer_Application](https://github.com/RamvignesH-R/Virtual_Cosmos_Multiplayer_Application) • JavaScript 
   - An expansive 2D multiplayer social application built on the MERN stack. Features a natively-mapped 60fps physics engine, global radar telemetry, and real-time Socket.io proximity chat.
-
-- 🚀 [Global_Trotter_Odos_Hackathon](https://github.com/RamvignesH-R/Global_Trotter_Odos_Hackathon) • JavaScript 
-  - No description
 
 </div>
 <!--END_SECTION:recent_repos-->
