@@ -35,6 +35,9 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 <!--START_SECTION:recent_repos-->
 <div align="left">
 
+- 🚀 [SwiftTab-Chrome-Extension](https://github.com/RamvignesH-R/SwiftTab-Chrome-Extension) • JavaScript 
+  - The ultimate productivity hub for Google Chrome. Unify your digital workspace with an intelligent bookmark manager, automated startup routines, a robust URL task scheduler, universal session clipboard, and sandboxed financial calculators—all inside a stunning Manifest V3 dashboard.
+
 - 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Config 
   - Config files for my GitHub profile.
 
@@ -46,9 +49,6 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 
 - 🚀 [Circuit-Verification-Using-Resolution](https://github.com/RamvignesH-R/Circuit-Verification-Using-Resolution) • Jupyter Notebook 
   - An Artificial Intelligence exercise implementing propositional logic resolution and CNF-based reasoning using Python. The notebook demonstrates automated theorem proving, logical equivalence verification, and resolution refutation concepts in a practical learning-oriented workflow.
-
-- 🚀 [Virtual_Cosmos_Multiplayer_Application](https://github.com/RamvignesH-R/Virtual_Cosmos_Multiplayer_Application) • JavaScript 
-  - An expansive 2D multiplayer social application built on the MERN stack. Features a natively-mapped 60fps physics engine, global radar telemetry, and real-time Socket.io proximity chat.
 
 </div>
 <!--END_SECTION:recent_repos-->
