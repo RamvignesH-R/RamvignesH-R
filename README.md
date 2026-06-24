@@ -35,11 +35,11 @@ Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and D
 <!--START_SECTION:recent_repos-->
 <div align="left">
 
-- 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Config 
-  - Config files for my GitHub profile.
-
 - 🚀 [SwiftTab-Chrome-Extension](https://github.com/RamvignesH-R/SwiftTab-Chrome-Extension) • JavaScript 
   - The ultimate productivity hub for Google Chrome. Unify your digital workspace with an intelligent bookmark manager, automated startup routines, a robust URL task scheduler, universal session clipboard, and sandboxed financial calculators—all inside a stunning Manifest V3 dashboard.
+
+- 🚀 [RamvignesH-R](https://github.com/RamvignesH-R/RamvignesH-R) • Config 
+  - Config files for my GitHub profile.
 
 - 🚀 [Bunsho-Assistant](https://github.com/RamvignesH-R/Bunsho-Assistant) • TypeScript 
   - Navigate Japanese bureaucracy safely. An AI platform that reads, translates, and analyzes Japanese contracts for hidden legal risks using Gemini 1M-context and PaddleOCR.
